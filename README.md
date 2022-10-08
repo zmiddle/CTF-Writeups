@@ -1,2 +1,2 @@
 # CTF-Writeups
-Capture the flag write ups for TryHackMe and HackTheBox.
+These are my collection of capture the flag write ups for TryHackMe and HackTheBox.

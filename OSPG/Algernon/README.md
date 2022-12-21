@@ -1,5 +1,7 @@
 # Algernon
-## ![Algernon1](https://user-images.githubusercontent.com/43040008/208835387-73165a6c-6dfd-414f-8a27-dcdf15f5870d.png)
+## Algernon is one of the first Windows CTF challenges you will see in Offensive Security’s Proving Grounds Practice series of vulnerable machines.
+
+![Algernon1](https://user-images.githubusercontent.com/43040008/208835387-73165a6c-6dfd-414f-8a27-dcdf15f5870d.png)
 ![Algernon2](https://user-images.githubusercontent.com/43040008/208835390-b5875639-4c96-4551-bd9b-d11d9388aa4d.png)
 ![Algernon3](https://user-images.githubusercontent.com/43040008/208835392-a81856cc-2ffe-49e1-82bd-0e0f1fe9b0d3.png)
 ![Algernon4](https://user-images.githubusercontent.com/43040008/208835393-d0f9b8ca-d876-4166-83b4-5f85709fbdde.png)
@@ -15,4 +17,4 @@
 ![Algernon14](https://user-images.githubusercontent.com/43040008/208835412-8d9840f2-55c0-422f-a462-10e8ba6a257d.png)
 ![Algernon15](https://user-images.githubusercontent.com/43040008/208835413-0506fa5c-472f-4dd9-8a6e-3edecac232ed.png)
 ![Algernon16](https://user-images.githubusercontent.com/43040008/208835414-70fa768f-69d3-4db6-ab25-75eba2ad801a.png)
-Algernon is one of the first Windows CTF challenges you will see in Offensive Security’s Proving Grounds Practice series of vulnerable machines.
+

@@ -1,4 +1,5 @@
-<h1>Wombo</h1>
+# Wombo
+## Wombo is an intermediate Linux CTF challenges that features a Redis RCE exploit you will see in Offensive Security’s Proving Grounds Practice series of vulnerable machines.
 ![Wombo1](https://user-images.githubusercontent.com/43040008/208951368-953e8479-8988-4067-90b5-89a19d5e4b4b.png)
 ![Wombo2](https://user-images.githubusercontent.com/43040008/208951369-ab5689b6-38be-4c94-b35c-ebda1351aaef.png)
 ![Wombo3](https://user-images.githubusercontent.com/43040008/208951370-15be964b-f539-4775-b2a0-3722b2dff084.png)

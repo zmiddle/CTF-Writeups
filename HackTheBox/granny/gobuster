@@ -1,0 +1,25 @@
+┌──(kali㉿kali)-[~/htb/granny]
+└─$ gobuster dir -u http://10.10.10.15/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.15/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Timeout:                 10s
+===============================================================
+2023/07/07 08:51:01 Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 149] [--> http://10.10.10.15/images/]
+/Images               (Status: 301) [Size: 149] [--> http://10.10.10.15/Images/]
+/IMAGES               (Status: 301) [Size: 149] [--> http://10.10.10.15/IMAGES/]
+/_private             (Status: 301) [Size: 153] [--> http://10.10.10.15/%5Fprivate/]
+Progress: 220546 / 220561 (99.99%)
+===============================================================
+2023/07/07 09:00:02 Finished
+===============================================================
+

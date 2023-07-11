@@ -1,0 +1,48 @@
+┌──(kali㉿kali)-[~/htb/granny]
+└─$ davtest -url http://10.10.10.15/
+********************************************************
+ Testing DAV connection
+OPEN            SUCCEED:                http://10.10.10.15
+********************************************************
+NOTE    Random string for this session: 8CjWHbscRrX
+********************************************************
+ Creating directory
+MKCOL           SUCCEED:                Created http://10.10.10.15/DavTestDir_8CjWHbscRrX
+********************************************************
+ Sending test files
+PUT     jsp     SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.jsp
+PUT     asp     FAIL
+PUT     php     SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.php
+PUT     jhtml   SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.jhtml
+PUT     txt     SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.txt
+PUT     aspx    FAIL
+PUT     cgi     FAIL
+PUT     shtml   FAIL
+PUT     pl      SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.pl
+PUT     cfm     SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.cfm
+PUT     html    SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.html
+********************************************************
+ Checking for test file execution
+EXEC    jsp     FAIL
+EXEC    php     FAIL
+EXEC    jhtml   FAIL
+EXEC    txt     SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.txt
+EXEC    txt     FAIL
+EXEC    pl      FAIL
+EXEC    cfm     FAIL
+EXEC    html    SUCCEED:        http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.html
+EXEC    html    FAIL
+
+********************************************************
+/usr/bin/davtest Summary:
+Created: http://10.10.10.15/DavTestDir_8CjWHbscRrX
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.jsp
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.php
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.jhtml
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.txt
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.pl
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.cfm
+PUT File: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.html
+Executes: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.txt
+Executes: http://10.10.10.15/DavTestDir_8CjWHbscRrX/davtest_8CjWHbscRrX.html
+

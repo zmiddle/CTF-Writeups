@@ -1,0 +1,5 @@
+# Nmap 7.93 scan initiated Mon Apr 10 23:57:39 2023 as: nmap -p- -v -sC -sV -T4 -Pn -oA nmap_results 10.10.11.189
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.11.189 ()	Status: Up
+Host: 10.10.11.189 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/	Ignored State: closed (65533)
+# Nmap done at Mon Apr 10 23:58:00 2023 -- 1 IP address (1 host up) scanned in 21.07 seconds
